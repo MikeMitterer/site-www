@@ -2,7 +2,8 @@
 import 'dart:async';
 import 'dart:math';
 
-void miscDeclAnalyzedButNotTested() {
+void miscDeclAnalyzedButNotTested<DB, HttpConnection, HttpRequest, IOStream,
+    Id>() {
   {
     // #docregion misc-names
     var item;
@@ -247,14 +248,6 @@ void miscDeclAnalyzedButNotTested() {
 }
 
 //----------------------------------------------------------------------------
-
-class DB {}
-
-class HttpConnection {}
-
-class Id {}
-
-class IOStream {}
 
 class SomeType {}
 
